@@ -43,6 +43,8 @@ const App = () => {
 
             <input value={username} onChange={e => setUserName(e.target.value)} />
             <p>You are logging in as: {username}</p>
+            <button onClick={() => setLoaded(false)}>Clickidy Click Again</button>
+
         </div>
     )
 }
